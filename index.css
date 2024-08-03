@@ -4,9 +4,10 @@
     box-sizing: border-box;
 }
 .container{
-    height: 555px;
+    height: 100%;
     width: 576px;
     margin: 20px auto;
+    font-size: 1.5rem;
 
 }
 nav{
@@ -31,13 +32,29 @@ nav{
     /* color: red; */
     background-color: rgb(233, 233, 233);
 }
+.user:hover{
+    cursor: pointer;
+    transition: 0.2s ;
+    color: rgb(219, 0, 0);
+}
 button{
     background-color: green;
-    height: 32px;
-    width: 65px;
-    padding: px;
-    border-radius: 5px;
+    height: 35px;
+    width: 80px;
+    /* padding:10px; */
+    border-radius: 8px;
     color: white;
+}
+button:hover{
+    background-color: rgb(21, 52, 205);
+    height: 45px;
+    width: 90px;
+    transition: 0.2s ;
+    /* padding:10px; */
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    /* box-shadow: 10px; */
 }
 .menu{
     /* height: 40px; */
@@ -46,6 +63,12 @@ button{
     display: flex;
     align-items: center;
     padding: 5px;
+    /* gap: 10px; */
+}
+.icons:hover{
+    background-color: green;
+    padding: 10px;
+    transition: 0.2s ;
     /* gap: 10px; */
 }
 .icons a{
